@@ -121,13 +121,11 @@ petalo(68.33)
 go(-86.47, 120.01)
 petalo(140.33)
 
-t.hideturtle()
-turtle.done()
-
 penup()
 goto(0, -50)
 pendown()
 color("red")
 write('I LOVE YOU', align="center", font=("BrusH Script MT", 45, "normal"))
-hideturtle()
-done()
+
+t.hideturtle()
+turtle.done()
